@@ -1,16 +1,16 @@
 ---
-to: Header.tsx
+to: src/components/<%= component_name %>/<%= component_name %>.tsx
 ---
 
 import { FC, PropsWithChildren } from "react";
 
-import styles from "./Header.module.scss";
+import styles from "./<%= component_name %>.module.scss";
 
-import { IHeaderProps } from "./types";
+import { I<%= component_name %>Props } from "./types";
 
-export const Header: FC<PropsWithChildren<IHeaderProps>> = ({ title, children }): JSX.Element => (
+export const <%= component_name %>: FC<PropsWithChildren<I<%= component_name %>Props>> = ({ title, children }): JSX.Element => (
     <div className={styles.container} >
-        <h1>{title || "Header title"}</h1>
+        <h1>{title || "<%= component_name %> title"}</h1>
         <div>{children}</div>
     </div>
 );
