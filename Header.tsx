@@ -1,7 +1,3 @@
----
-to: Header.tsx
----
-
 import { FC, PropsWithChildren } from "react";
 
 import styles from "./Header.module.scss";
