@@ -10,4 +10,3 @@ export const Footer: FC<PropsWithChildren<IFooterProps>> = ({ title, children })
         <div>{children}</div>
     </div>
 );
-

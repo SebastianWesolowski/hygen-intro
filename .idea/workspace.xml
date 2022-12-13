@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf465f2-3ad7-4192-b457-21c128445094" name="Changes" comment="init CRA repo">
-      <change beforePath="$PROJECT_DIR$/.hygen/react/component/Header.tsx.ejs.t" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.hygen/react/component/inject-index.ejs.t" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
     "ts.external.directory.path": "/Users/sebastian/web/app-example/node_modules/typescript/lib"
   }
 }]]></component>
@@ -60,6 +61,7 @@
       <recent name="$PROJECT_DIR$/src/components/Header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.hygen/react/component" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
